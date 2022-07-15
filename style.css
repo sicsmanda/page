@@ -1,6 +1,3 @@
-body {
-  height: 5000px;
-}
 .jumbotron {
   padding-top: 60px;
   background-color: #00cec9;
@@ -25,4 +22,15 @@ body {
 #gallery {
   font-family: 'Times New Roman', Times, serif;
   padding-top: 80px;
+}
+@media(min-width:992px) {
+    .video {
+        width: 100%;
+    }
+} 
+
+@media(max-width:768px) {
+    .video {
+        width: 50%%;
+    }
 }
